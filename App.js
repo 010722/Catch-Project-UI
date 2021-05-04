@@ -1,9 +1,9 @@
 import React from 'react';
 import _ from 'lodash';
-import {screens} from 'unicorn-demo-app';
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-import MainScreen from './MainScreen';
+import {screens} from './AwesomeProject/node_modules/unicorn-demo-app';
+import {NavigationContainer} from './AwesomeProject/node_modules/@react-navigation/native';
+import {createStackNavigator} from './AwesomeProject/node_modules/@react-navigation/stack';
+import MainScreen from './AwesomeProject/MainScreen';
 
 const Stack = createStackNavigator();
 
